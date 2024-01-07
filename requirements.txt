@@ -1,0 +1,12 @@
+pandas==1.5.3
+numpy==1.23.5
+scipy==1.11.4
+nltk==3.8.1
+pyarrow==10.0.1
+transformers==4.35.2
+fastapi==0.105.0
+uvicorn
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==2.1.0+cpu
+torchaudio==2.1.0
+torchvision==0.16.0
