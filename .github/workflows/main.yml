@@ -52,6 +52,6 @@ jobs:
         uses: aws-actions/amazon-ecs-deploy-task-definition@v1
         with:
           task-definition: ${{ steps.task-def.outputs.task-definition }}
-          service: medical_code_mapping_service # service name
+          service: medical_code_mapping_service_v2 # service name
           cluster: medical_code_mapping_cluster # cluster Name
           wait-for-service-stability: true
